@@ -240,16 +240,6 @@ main div h2 {
     display: none;
 }
 
-#status {
-    color: #6fe410;
-    font-family: "DM Sans", sans-serif;
-}
-
-#status:hover {
-    border-bottom: 2px solid transparent;
-    cursor: pointer;
-}
-
 ::-webkit-scrollbar {
     width: 12px;
 }
