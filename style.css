@@ -295,7 +295,7 @@ main div h2 {
 @media (max-width: 595px) {
     .container {
         grid-template-columns: 1fr;
-        grid-template-columns: 80px 1fr;
+        grid-template-columns: 70px 1fr;
     }
 
     .nav a {
