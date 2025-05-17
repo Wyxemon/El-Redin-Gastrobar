@@ -11,17 +11,24 @@
 
 <body>
     <header>
-        <h1>El Redín <span>Gastrobar</span></h2>
-            <div class="nav">
-                <a id="status">Abierto</a>
-                <a href="">Precios</a>
-                <a href="">Horarios</a>
-                <button>
-                    <img src="menu.png" alt="">
-                </button>
-            </div>
+        <h1>El Redín <span>Gastrobar</span></h1>
+        <div class="nav">
+            <a id="status">Abierto</a>
+            <a href="">Precios</a>
+            <a href="">Horarios</a>
+            <button id="menu-button" onclick="toggleMenu()">
+                <img src="menu.png" alt="Menu">
+            </button>
+        </div>
     </header>
     <main>
+        <div class="menu" id="menu">            
+            <a href="">Reservar</a>
+            <a href="" id="prices-a" >Precios</a>
+            <a href="" id="schedule-a">Horarios</a>
+            <a href="">Menu</a>
+            <a href="">Contacto</a>
+        </div>
         <div class="container">
             <div class="image-container">
                 <img src="toro.png">
@@ -36,7 +43,6 @@
             </div>
         </div>
         <div class="description">
-            <div class="fecha" id="fecha"></div>
         </div>
     </main>
     <script src="index.js"></script>

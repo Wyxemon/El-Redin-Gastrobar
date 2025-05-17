@@ -24,6 +24,7 @@ header {
     box-sizing: border-box;
     padding: 0 20px;
     justify-content: space-between;
+    z-index: 2;
 }
 
 main {
@@ -193,6 +194,52 @@ main div h2 {
     align-items: center;
 }
 
+.menu {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000;
+    box-sizing: border-box;
+    padding-left: 20px;
+    gap: 10px;
+    padding-right: 32px;
+    position: absolute;
+    top: -75px;
+    transition: top 0.3s ease-out;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.menu.show {
+    top: 90px;
+    display: flex;
+}
+
+.menu a {
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.1s ease;
+    transition: color 0.1s ease;
+}
+
+.menu a:hover {
+    color: #0b7beb;
+    border-bottom: 1px solid #0b7beb;
+}
+
+#prices-a {
+    display: none;
+}
+
+#schedule-a {
+    display: none;
+}
+
 #status {
     color: #6fe410;
     font-family: "DM Sans", sans-serif;
@@ -243,15 +290,24 @@ main div h2 {
     .nav a {
         font-size: 16px;
     }
-
 }
 
-@media (max-width: 550px) {
+@media (max-width: 595px) {
     .nav a {
         display: none;
     }
 
     .description {
         flex-wrap: wrap;
+    }
+
+    .menu {
+        height: 180px;
+    }
+    #prices-a {
+        display: flex;
+    }
+    #schedule-a {
+        display: flex;
     }
 }
