@@ -222,14 +222,14 @@ main div h2 {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff5;
     transition: border-bottom 0.1s ease;
     transition: color 0.1s ease;
 }
 
 .menu a:hover {
     color: #0b7beb;
-    border-bottom: 1px solid #0b7beb;
+    border-bottom: 2px solid #0b7beb;
 }
 
 #prices-a {
