@@ -154,6 +154,7 @@ main div h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     border: 2px solid #fff;
+    margin-bottom: 30px;
 }
 
 .text-container button:hover {
