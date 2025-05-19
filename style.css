@@ -24,7 +24,7 @@ header {
     box-sizing: border-box;
     padding: 0 20px;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 3;
     position: absolute;
 }
 
@@ -214,7 +214,7 @@ main div h2 {
     top: -100px;
     transition: top 0.3s ease-out;
     border-radius: 0 0 4px 4px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menu.show {
@@ -291,7 +291,7 @@ section img:hover {
     opacity: 1;
     filter: contrast(120%);
     scale: 1.1;
-    z-index: 3;
+    z-index: 1;
     border-radius: 4px;
 }
 
