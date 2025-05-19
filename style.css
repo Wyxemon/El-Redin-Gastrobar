@@ -119,6 +119,7 @@ main div h2 {
     font-weight: 900;
     color: #fff;
     font-size: 3.2rem;
+    margin-top: 20px;
 }
 
 .text-container {
@@ -154,7 +155,7 @@ main div h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     border: 2px solid #fff;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .text-container button:hover {
