@@ -392,6 +392,10 @@ section img:hover, section img:active, section img:focus {
     color: #000;
 }
 
+.div-schedule p {
+    color: #d3d3d3;
+}
+
 @media (max-width: 735px) {
     .container {
         grid-template-columns: 1fr;
