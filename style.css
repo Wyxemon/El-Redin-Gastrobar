@@ -394,6 +394,7 @@ section img:hover, section img:active, section img:focus {
 
 .div-schedule p {
     color: #d3d3d3;
+    font-size: 18px;
 }
 
 @media (max-width: 735px) {
