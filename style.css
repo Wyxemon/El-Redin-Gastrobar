@@ -397,6 +397,16 @@ section img:hover, section img:active, section img:focus {
     font-size: 18px;
 }
 
+#translate-button:hover {
+    background-color: #222;
+}
+
+#translate-button img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
 @media (max-width: 735px) {
     .container {
         grid-template-columns: 1fr;

@@ -13,4 +13,8 @@ function toggleMenu() {
         openMenu = false;
         menu.classList.toggle("show");
     }
-}
+};
+
+function toggleLanguageMenu() {
+
+};
